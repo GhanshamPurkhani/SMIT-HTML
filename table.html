@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table></table> 
+    <!-- :::> its used to create a table form only -->
+     <tr></tr>
+    <!-- :::> its used to create a table row only  -->
+     <td></td>
+    <!-- :::> its used to create a table row   and its table data contain -->
+     <table border="1">
+        <tr>
+        <td>st</td>
+        <td>nd</td>
+        <td>rd</td>
+    </tr>
+        <tr>
+            <td>01</td>
+            <td>02</td>
+            <td>03</td>
+        </tr>
+     </table>
+
+     <th></th>
+    <!-- :::> its used to create a table th use for heading of table -->
+     <br>
+    <table border="1">
+        <tr>
+        <th>st</th>
+        <th>nd</th>
+        <th>rd</th>
+    </tr>
+        <tr>
+            <td>01</td>
+            <td>02</td>
+            <td>03</td>
+        </tr>
+     </table>
+     <!-- collspan and row span  attributes used for the combine many row and colum in one row or colum -->
+     <br>
+     <table border="1">
+         <tr>
+         <th>st</th>
+         <th>nd</th>
+         <th>rd</th>
+         <th>th</th>
+
+     </tr>
+         <tr>
+             <td colspan="4">01</td>
+             <!-- <td>02</td>
+             <td>03</td>
+             <td>03</td> -->
+         </tr>
+         <tr>
+            <td>01</td>
+            <td rowspan="3">02</td>
+            <td>03</td>
+            <td>03</td>
+        </tr>
+        <tr>
+            <td>01</td>
+            <!-- <td>02</td> -->
+            <td>03</td>
+            <td>03</td>
+        </tr>
+      </table>
+      <!-- :::> long table its used for its help to screnreader -->
+       <br>
+       <table border="1" cellpadding="10" cellspacing="5">
+        <thead>
+            <tr>
+                <th>monday</th>
+                <th>Tuseday</th>
+                <th>wednesday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>English</td>
+                <td>Math</td>
+                <td>OOP</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Good</td>
+                <td>Best</td>
+                <td>Better</td>
+
+            </tr>
+        </tfoot>
+       </table>
+</body>
+</html>
